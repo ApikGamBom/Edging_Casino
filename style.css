@@ -1,3 +1,7 @@
+html{
+    font-size: 1vw;
+}
+
 body {
     overflow: hidden;
     margin: 0;
@@ -15,13 +19,13 @@ nav div {
 nav{
     display: flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:start;
     align-items: center;
 }
 
 .nav-button{
-    width: 8%; 
-    height: 50%; 
+    width: 6.4%; 
+    height: 40%; 
     margin: 1%;
     background-color:#d7dce8 ;
     border: solid #0f1a20 ;
@@ -31,7 +35,10 @@ nav{
 
 #Overskrift{
     font-family:Bungee Tint ;
-    text-align: center;
     font-size: 4rem;
     margin: 0%;
+    margin-left:5vw ;
+    margin-right: 20vw;
 }
+
+
