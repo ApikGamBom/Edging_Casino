@@ -26,42 +26,58 @@ body {
 }
 header {
     background: #28445a ;
-    margin-top: 0;
-
 }
+
+h2{
+    font-size: 1.5rem;
+}
+
 nav div {
     margin: 1% 5% 1% 5%;
 }
+
 nav{
     display: flex;
     flex-direction:row;
-    justify-content:start;
-    align-items: center;
+    justify-content:end;
 }
 
-.nav-button{
-    width: 8%; 
-    height: 40%; 
+button.nav-button{
+    width: 8rem; 
+    height: 4rem; 
     margin: 1%;
     background-color:#d7dce8 ;
     border: solid #0f1a20 ;
     border-width: 2px ;
-    border-radius: 3px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button.nav-button:hover{
+    position: relative;
+    width: 9rem; 
+    height: 5rem; 
+    transition: all 0.5s;
+}
+
+div.navigation-bar{
+    display: flex;
+    flex-direction: row;
 }
 
 #pageTitle{
     font-family:Bungee Tint ;
+    position: absolute;
     font-size: 4rem;
     margin: 0%;
     margin-left:5vw ;
-    margin-right: 20vw;
+    display: inline-block;
 }
 
 .cpsDiv {
     font-family: Bungee Tint;
     width: auto;
     height: 20rem;
-    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
