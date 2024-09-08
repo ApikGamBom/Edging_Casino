@@ -1,6 +1,22 @@
 html{
     font-size: 1vw;
 }
+/* Mobil-skjerm */
+@media (min-width: 319px) and (max-width: 480px ){
+
+}
+/* Ipad-skjerm */
+@media (min-width: 481px) and (max-width: 1200px){
+
+}
+/* Laptop-Skjerm */
+@media (min-width: 1201px) and (max-width: 1600px ){
+
+}
+/* Veldig stor skjerm (Desktop-skjerm) */
+@media (min-width: 1601px){
+
+}
 
 body {
     overflow: hidden;
