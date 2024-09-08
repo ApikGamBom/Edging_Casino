@@ -75,9 +75,13 @@ nav{
     font-size: 2rem;
     width: 15rem;
     height: 7rem;
-    border: #28445a solid .5rem;
+    border: black solid 0rem;
     border-radius: 5rem;
     background-color: #ea5d4d;
+}
+
+.cpsBtn:hover {
+    border: #28445a solid .5rem;
 }
 
 .cpsStats {
