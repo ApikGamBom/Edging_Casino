@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EdgingStudios</title>
+    <title>Site</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,26 +20,65 @@ Color palette for forside:
 #0f1a20 - Svart
  -->
 </head>
-<body>
+ <body>
     <header class="header">
 
         <nav>
-            <h1 id="Overskrift">Edging Casino</h1>
+            <h1 id="pageTitle">Edging Casino</h1>
 
-                <button class="nav-button">
-                    <h1>#1</h1>
-                </button>
-                <button class="nav-button">
-                    <h1>#2</h1>
-                </button>
-                <button class="nav-button" onclick="alert('nigga')">
-                    <h1>#3</h1>
-                </button>
-                <button class="nav-button" onclick="login()">
-                    <h1>Login</h1>
-                </button>
+            <button class="nav-button" onclick="navigateTo('cpsTest')">
+                <h1>Cps Test</h1>
+            </button>
+            <button class="nav-button" onclick="navigateTo('Page2')">
+                <h1>Page 2</h1>
+            </button>
+            <button class="nav-button" onclick="navigateTo('Page3')">
+                <h1>Page 3</h1>
+            </button>
+            <button class="nav-button" id="loginBtn" onclick="navigateTo('logIn')">
+                <h1>Login</h1>
+            </button>
 
         </nav>
     </header>
+
+    <!--CPS Tester-->
+    <div id="cpsTest" class="section">
+        <div class="cpsDiv flexCenter">
+            <button class="cpsBtn" onclick="cpsTestClick()">CLICK</button>
+            <div class="cpsStats">
+                <div class="currenCPSDiv">
+                    <h3>CPS:</h3>
+                    <p id="currentCps">0</p>
+                </div>
+                <div class="recordCPSDiv">
+                    <h3>CPS Record:</h3>
+                    <p id="recordCps">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--#1-->
+    <div id="Page2" class="section">
+        <div class="flexCenter">
+            <h1>Page2</h1>
+        </div>
+    </div>
+    <!--#2-->
+    <div id="Page3" class="section">
+        <div class="flexCenter">
+            <h1>Page3</h1>
+        </div>
+    </div>
+    <!--Log In-->
+    <div id="logIn" class="section">
+        <div class="flexCenter">
+            <h1>Login</h1>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
