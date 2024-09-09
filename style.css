@@ -94,6 +94,7 @@ div.navigation-bar{
     border: black solid 0rem;
     border-radius: 5rem;
     background-color: #ea5d4d;
+    transition: all 0.5s;
 }
 
 .cpsBtn:hover {
